@@ -1,0 +1,10 @@
+# Coursera - Python Data Structures
+## Week 3
+### ~ Assignment 7.1 ~
+You can find the file from this [words.txt](https://www.py4e.com/code3/words.txt)
+# Write a program that prompts for a file name, then opens that file and reads through the file, and print the contents of the file in upper case.
+fname = raw_input("Enter file name: ")
+fhand = open(fname)
+for i in fhand:
+    output = i.rstrip()
+    print(output.upper())
