@@ -8,12 +8,13 @@
 ```
 *1The Client will enter in the command Prompt as follows: 
 ```
-+ **avg
-+ **avg 100 3000
-+ **count
-+ **count 75 340000
-+ **range 20000 25000 50
-+ **max
++*Samples
++ avg
++ avg 100 3000
++ count
++ count 75 340000
++ range 20000 25000 50
++ max
 ```
 *2 Run ./statclient first
 ```
